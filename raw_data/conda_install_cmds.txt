@@ -1,0 +1,18 @@
+cmd: conda create -n buildml python=3.7
+cmd: conda install jupyter
+cmd: conda install matplotlib
+cmd: conda install pandas
+cmd: conda install scikit-learn
+cmd: conda install scapy
+cmd: conda install tqdm
+cmd: conda install nltk
+cmd: conda install -c conda-forge pyphen
+cmd: conda install pillow
+cmd: conda install spacy
+cmd: conda install -c conda-forge umap-learn
+cmd: conda install beautifulsoup4
+cmd: conda install bokeh
+cmd: conda install Flask
+cmd: conda install pytest
+cmd: conda install Keras
+cmd: conda install -c conda-forge lime

@@ -1,0 +1,18 @@
+Run 1 
+
+runfile('D:/Data/0 - Study/9.9 - Git Folders/0 - Private/book/1_Building_ML/ml_editor/ch3_ml_editor_v1.py', args='"Is this workflow any good?"')
+
+Adverb usage: 0 told/said, 0 but/and, 0 wh adverbs<br/>Average word length 3.67, fraction of unique words 1.00<br/>6 syllables, 5 words, 1 sentences<br/>6 syllables, 100.26 flesch score: Very easy to read
+
+
+Run 2
+
+runfile('D:/Data/0 - Study/9.9 - Git Folders/0 - Private/book/1_Building_ML/ml_editor/ch3_ml_editor_v1.py', args='"Here is a needlessly obscure question, that does not provide clearly which information it would like to acquire, does it?"')
+
+Adverb usage: 0 told/said, 0 but/and, 0 wh adverbs<br/>Average word length 4.43, fraction of unique words 0.87<br/>30 syllables, 20 words, 1 sentences<br/>30 syllables, 59.65 flesch score: Fairly difficult to read
+
+Run 3
+
+runfile('D:/Data/0 - Study/9.9 - Git Folders/0 - Private/book/1_Building_ML/ml_editor/ch3_ml_editor_v1.py', args='"Ideally, we would like our workflow to return a positive /n score for the simple sentence, a negative score for the convoluted one, /n and  /n suggestions for improving our paragraph. Is that the case already?"')
+
+Adverb usage: 0 told/said, 1 but/and, 0 wh adverbs<br/>Average word length 3.92, fraction of unique words 0.73<br/>55 syllables, 36 words, 2 sentences<br/>55 syllables, 59.33 flesch score: Fairly difficult to read
