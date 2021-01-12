@@ -89,11 +89,8 @@ def get_recommendation_and_prediction_from_text(input_text, num_feats=10):
         feats, MODEL.predict_proba, num_features=num_feats, labels=(1,)
     )
     print('explaining done')
-    print('exp list ', exp.as_list())
     parsed_exps = parse_explanations(exp.as_list())
-    print('parsed_exps list ', parsed_exps)
     recs = get_recommendation_string_from_parsed_exps(parsed_exps)
-    print('recs ', recs)
     
     output_str = """
     Current score (0 is worst, 1 is best):
